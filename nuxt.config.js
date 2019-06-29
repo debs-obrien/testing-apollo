@@ -4,12 +4,7 @@ import i18n from './i18n'
 export default {
   mode: 'universal',
   // meta for pwa etc
-  meta: {
-    name: 'Patterson Travel',
-    description:
-      'Hola, somos Patterson. El copiloto de tu marca. La agencia que gestiona, coordina y diseña tus viajes y eventos de empresa',
-    author: 'Patterson Agency'
-  },
+
   /*
    ** Headers of the page
    */
@@ -17,15 +12,7 @@ export default {
     titleTemplate: '%s',
     htmlAttrs: {
       lang: 'es'
-    },
-    meta: [
-      {
-        hid: 'description',
-        name: 'description',
-        content:
-          'Hola, somos Patterson. El copiloto de tu marca. La agencia que gestiona, coordina y diseña tus viajes y eventos de empresa'
-      }
-    ]
+    }
   },
   /*
    ** Active link class for the router
